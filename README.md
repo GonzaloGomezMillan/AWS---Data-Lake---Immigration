@@ -37,7 +37,8 @@ The main difficulty of this analysis is to prepare the data in a way that makes 
 ---
 
 ## **DATABASE SCHEMA**
-![](images/DataLake_Immigration_USA_Structure.png)
+
+p![](images/DataLake_Immigration_USA_Structure.jpg)
 
 ---
 
