@@ -10,8 +10,6 @@ With this data lake it would be possible to perform analyses about the number of
 
 The main difficulty of this analysis is to prepare the data in a way that makes it much easier for data scientists and analysts to extract information, conclusions and predictive models from the data.
 
-Translated with www.DeepL.com/Translator (free version)
-
 ---
 
 ## **DATA LAKE WORKFLOW**
