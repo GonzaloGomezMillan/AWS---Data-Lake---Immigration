@@ -51,7 +51,14 @@ The first thing to do is to upload the notebook to the EMR cluster. The Jupyter 
 
 ![](images/run_jupyter_notebook.jpg)
 
-...
+---
+
+**ALTERNATIVE SCENARIOS**
+
+* **If the data was increased by 100x:** In this dataset, some big data tools has been already used like Apache Spark. Apache Spark has been used in the two datasets which could potentially increase, like the immigration and temperature dataset. The rest of the datasets could increase both probably they can not grow so much to be considerated as big data. Nevertheless, in case that the data would have increased by x100, Spark would be completely necessary to parallelize the operations to be performed and it is very likely that the confirmation of the EMR should change, being necessary to use either more nodes or nodes with better computational power.
+* **If the pipelines were run on a daily basis by 7am:** In case the pipelines would run on a daily basis, the results would be completely updated but probably that would not have a relevant impact on the results of the analysis. The best option would be to run it on a monthly basis.
+* **If the database needed to be accessed by 100+ people:** In this case, the first thing I would do is to create a group of users, so I do not need to grant person-to-person permits. That can be managed from the Amazon IAM. From other side, that would not have an impact on the computational needs. Although so many people would have access, it would be very relevant to understand the frequency of the queries, to determine if the data has be highly availabe or if this data can be stored in a bucket with other characteristics and prices. 
+- **Apache Airflow**: This project could have been done in Apache Airflow to update the data in a given period of time, which in this case I think it should have been run in a monthly basis. However, I have not deployed it in Airflow for the sake of limitation. In any case, it has been defined through functions to facilitate that it can be taken to Apache Airflow to be able to apply a data pipeline to it.
 
 ---
 ## **LICENSING, AUTHORS, ACKNOWLEDGEMENTS, ETC.**
