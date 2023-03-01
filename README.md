@@ -18,24 +18,6 @@ The main difficulty of this analysis is to prepare the data in a way that makes 
 
 ---
 
-## **INPUT DATA**
-
-**...**: ...
-
-**...**: ...
-
-**...**: ...
-
-**...**: ...
-
-**...**: ...
-
-**...**: ...
-
-**...**: ...
-
----
-
 ## **DATABASE SCHEMA**
 
 ![](images/DataLake_Immigration_USA_Structure.jpg)
@@ -43,9 +25,13 @@ The main difficulty of this analysis is to prepare the data in a way that makes 
 ---
 
 ## **FILES DESCRIPTION**
-- **...** : ...
-- **...**: ...
-- **...**: ...
+- **I94 Immigration Data:** : This data comes from the US National Tourism and Trade Office. A data dictionary is included in the workspace. This is where the data comes from. The National Travel and Tourism Office (NTTO) manages the ADIS/I-94 visitor arrivals program in cooperation with the Department of Homeland Security (DHS)/U.S. Customs and Border Protection (CBP). The I-94 provides a count of visitor arrivals to the United States (with stays of 1-night or more and visiting under certain visa types) to calculate U.S. travel and tourism volume exports.  
+- **U.S. City Demographic Data:**: This data comes from OpenSoft. You can read more about it [here](https://public.opendatasoft.com/explore/dataset/us-cities-demographics/export/).
+- **Airport Code Table:**: This is a simple table of airport codes and corresponding cities. It comes from [here](https://datahub.io/core/airport-codes#data).
+- **World Temperature Data:**  This dataset came from Kaggle. You can read more about it [here](https://www.kaggle.com/datasets/berkeleyearth/climate-change-earth-surface-temperature-data).
+- **faa_code.csv:** File with the FAA Codes. The data comes from [here](https://www.faa.gov/air_traffic/flight_info/aeronav/aero_data/Loc_ID_Search/Encodes_Decodes/).
+- **ISO_code_US.csv:** File with the ISO codes of the USA states.
+- **I94_SAS_Labels_Descriptions:** File with information about the I95 Immigration Data. In this file is possible to find descriptions of each of the columns which are part of the dataset.
 
 ---
 
