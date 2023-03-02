@@ -8,7 +8,9 @@ The purpose of this project is to create a data lake with data about immigration
 
 With this data lake it would be possible to perform analyses about the number of immigrants arriving in the USA, through which airports they arrive or if the temperatures affect their choice of when to travel to the USA, among many other analyses.
 
-The main difficulty of this analysis is to prepare the data in a way that makes it much easier for data scientists and analysts to extract information, conclusions and predictive models from the data.
+The main difficulty of this analysis is to prepare the data in a way that makes it much easier for data scientists and analysts to extract information, conclusions, and predictive models from the data.
+
+In this project tools like Apache Spark or the Pandas library has been used. Apache Airflow has been used to read, modify, and save the two biggest datasets, I94 Immigration Data and World Temperature Data. It has been done like this because of two main reasons: the first one is that is easier and faster to modify so big files with this tool and the second is that, although in this case we could still have used Pandas, in case that the datasets would have increased, this code could not have been applied because of the size of the datasets. For that reason, Apache Spark has been applied to the two biggest datasets and the ones that potentially could grow in the future: in case of scalation of the datasets, this could be keep using.
 
 ---
 
