@@ -24,6 +24,8 @@ In this project tools like Apache Spark or the Pandas library has been used. Apa
 
 ![](images/DataLake_Immigration_USA_Structure.jpg)
 
+This star schema has been chosen because we handle big amount of data in this project (and if the analysis is extended to the rest of the world, the scope of the analysis could be huge) and it allows the access to the data with simple queries and perform fast aggregations to carry out any analysis any analysis we want to accomplish.
+
 ---
 
 ## **FILES DESCRIPTION**
